@@ -65,7 +65,7 @@ body{
     margin-bottom: 16px;
 }
 
-/* ^^ banner servicos*/
+/* ^^^^^^ BANNER SERVIÇOS*/
 
 .servicomaintexto{
     display: flex;
@@ -113,6 +113,7 @@ body{
     line-height: 1.3;
     font-size: 20px;
 }
+/* ^^^^^^ TEXTOS/TITULOS SERVICOS */
 
 @media (max-width: 1024px) {
 

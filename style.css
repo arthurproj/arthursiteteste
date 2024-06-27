@@ -30,6 +30,7 @@ body{
     font-size: 32px;
     color: white;
 }
+/* ^^^^^^ PRIMEIRA PAGINA (BEM VINDO) */
 
 .sobre{
     color: white;
@@ -104,6 +105,7 @@ body{
     text-indent: 50px;
     text-align: left;
 }
+/* ^^^^^^ SEGUNDA PAGINA (SOBRE) */
 
 @media (max-width: 1024px) {
 
