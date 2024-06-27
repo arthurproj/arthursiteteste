@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ilu{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.titIlu{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5em;
+    padding-left: 10em;
+    padding-bottom: 1em;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+    
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+   
+}
+
+.row3{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.multi{
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.titMulti{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5em;
+    padding-left: 10em;
+}
+
+.rowM1{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.rowM2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rowM3{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.a1{
+    padding-right: 1em;
+}
+
+.a2{
+    padding: 0 1em;
+}
+
+.a3{
+    padding: 0 1em;
+}
+
+.a4{
+    padding-left: 1em;
+}
+
+.b1{
+    height: 248px;
+    width: 349px;
+}
+
+.b2{
+    height: 248px;
+    width: 349px;
+    padding: 0 2em;
+}
+
+.b3{
+    height: 248px;
+    width: 349px;
+}
+
+.c1{
+    height: 248px;
+    width: 349px;
+}
+.c2{
+    height: 248px;
+    width: 349px;
+    padding: 0 2em;
+}
+.c3{
+    height: 248px;
+    width: 349px;
+}
+
+.m1{
+    width: 250px;
+    height: 220px;
+    padding: 1em;
+}
+
+.m2{
+    width: 250px;
+    height: 220px;
+    padding: 1em;
+}
+
+.m3{
+    width: 250px;
+    height: 220px;
+    padding: 1em;
+}
+
+@media (max-width: 1024px) {
+
+    .titIlu{
+        padding-left: 0em;
+        justify-content: center;
+        font-size: 30px;    
+    }
+
+    .row1{  
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    .row2{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    .row3{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    /* */
+
+    .titMulti{
+        padding-left: 0em;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .rowM1{
+        padding-top: 15px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .rowM2{
+        padding-top: 15px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .rowM3{
+        padding-top: 15px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+/* */
+
+    .a1{
+        padding-left: 12px;
+        width: 220px;
+        height: 200px;
+    }
+    .a2{
+        width: 220px;
+        height: 200px;
+    }
+    .a3{
+        width: 220px;
+        height: 200px;
+    }
+    .a4{
+        display: none;
+        visibility: hidden;
+    }
+
+    .b1{
+        width: 220px;
+        height: 200px;
+    }
+    .b2{
+        width: 220px;
+        height: 200px;
+    }
+    .b3{
+        width: 220px;
+        height: 200px;
+    }
+
+    .c1{
+        width: 220px;
+        height: 200px;   
+    }
+    .c2{
+        width: 220px;
+        height: 200px;
+    }
+    .c3{
+        width: 220px;
+        height: 200px;
+    }
+
+/* */
+
+    .m1{
+        width: 220px;
+        height: 200px;
+    }
+
+    .m2{
+        width: 220px;
+        height: 200px;
+    }
+
+    .m3{
+        width: 220px;
+        height: 200px;
+    }
+}
+
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+}
+
+.servicos{
+    color: white;
+    overflow: hidden;
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicosbg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 240px;
+    padding-top: 5em;
+}
+
+.servicobannerconteudo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicobgtexto{
+    padding-top: 5em;
+    width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: white;
+    line-height: 2.0;
+    padding-top: 20px;
+}
+
+.sub1{
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.sub2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+/* ^^ banner servicos*/
+
+.servicomaintexto{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.sonotitulo{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.sonoserv{
+    line-height: 1.3;
+    font-size: 20px;
+}
+.acetitulo{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.aceserv{
+    line-height: 1.3;
+    font-size: 20px;
+}
+.segtitulo{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.segserv{
+    line-height: 1.3;
+    font-size: 20px;
+}
+.ilutitulo{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.iluserv{
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+
+    .servicomaintexto{
+        padding-top: 140px;
+    }
+
+    .sonorizacao{
+        width: 200px;
+    }
+
+    .acessorios{
+        width: 200px;
+    }
+
+    .seguranca{
+        width: 200px;
+    }
+
+    .iluminacao{
+        width: 200px;
+    }
+
+    .sonotitulo{
+        padding-left: 20px;
+    }
+
+    .sonoserv{
+        padding-left: 10px;
+    }
+}
